@@ -1,6 +1,6 @@
 package basicjava;
 
-// basic arithematic operations
+// basic arithematic operations.
 public class ArithemeticOperators {
 
 	public static void main(String[] args) {
