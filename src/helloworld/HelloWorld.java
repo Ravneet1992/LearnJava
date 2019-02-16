@@ -1,12 +1,9 @@
 package helloworld;
 
-/* This is the class 
- * we have the main method in the class
- */
+/* This is the class we have the main method in the class */
 public class HelloWorld {
 
 	public static void main(String[] args) {
-//		print Hello World
 
 		System.out.println("Hello World");
 		System.out.println("");
