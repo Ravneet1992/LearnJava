@@ -8,7 +8,7 @@ public class NoOfDays {
 		int daysofmonth;
 		int i;
 		
-		for (i=1;i<13;i++) {
+		for (i=1;i<=13;i++) {
 			daysofmonth = daysInMonth(i);
 			System.out.println("month "+ i + " has "+daysofmonth + "days");
 		}
@@ -20,8 +20,11 @@ public class NoOfDays {
 			return 31;
 		} else if( (month==4) || (month==6) || (month==9) || (month==11) ) {
 			return 30;
-		} else {
+		} else if((month == 2)) {
 			return 28;
-		}
+		} else {
+			return -1;
+		}	
 	}
+	
 }
