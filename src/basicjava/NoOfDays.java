@@ -1,5 +1,4 @@
 package basicjava;
-import java.util.Scanner;
 
 public class NoOfDays {
 

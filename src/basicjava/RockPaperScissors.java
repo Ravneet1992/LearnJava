@@ -12,48 +12,39 @@ public class RockPaperScissors {
      String PlayerTwo  = input.next();
      
      if(PlayerOne.equals("rock")) {
-    	 
+
     	 if(PlayerTwo.equals("scissors")) {
     		 System.out.println("PlayerOne wins");
-    		 
+
     	 } else if(PlayerTwo.equals("paper")) {
     		 System.out.println("PlayerTwo wins");
-    		 
+
     	 } else {
     		 System.out.println("Its a tie!");
-    		 
     	 }
-     
-     
-  } else if(PlayerOne.equals("scissors")) {
-    	 
+     } else if(PlayerOne.equals("scissors")) {
+
     	 if(PlayerTwo.equals("paper")) {
     		 System.out.println("PlayerOne wins");
-    		 
+
     	 } else if(PlayerTwo.equals("rock")) {
     		 System.out.println("PlayerTwo wins");
-    		 
+
     	 } else {
     		 System.out.println("Its a tie!");
-    		 
     	 }
-     
-    	 
-   } else {  //(PlayerOne.equals("paper")) {
-    	 
+     } else {  //(PlayerOne.equals("paper")) {
+
     	 if(PlayerTwo.equals("rock")) {
     		 System.out.println("PlayerOne wins");
-    		 
+
     	 } else if(PlayerTwo.equals("scissors")) {
     		 System.out.println("PlayerTwo wins");
-    		 
+
     	 } else {
     		 System.out.println("Its a tie!");
-    		 
     	 }
      }
-     
-
-	}
-
+     input.close();
+  }
 }

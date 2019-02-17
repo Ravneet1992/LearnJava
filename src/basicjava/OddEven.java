@@ -16,8 +16,11 @@ public class OddEven {
 		else {
 		System.out.println("odd ");
 	}
+	
+	 input.close();
 		
 	}
+	
 }
 
 
